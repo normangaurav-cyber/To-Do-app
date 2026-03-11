@@ -1,0 +1,268 @@
+/* ───────────────────────────────────────────
+   Page shell
+─────────────────────────────────────────── */
+.page {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* ───────────────────────────────────────────
+   Header
+─────────────────────────────────────────── */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 22px;
+  height: 83px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2b852b;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.headerActions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.accountBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 36px;
+  padding: 0 12px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #3b3b3b;
+  border-radius: 6px;
+  transition: background-color 0.15s;
+}
+
+.accountBtn:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.externalLinkBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  color: #3b3b3b;
+  transition: opacity 0.15s;
+}
+
+.externalLinkBtn:hover {
+  opacity: 0.7;
+}
+
+.headerDivider {
+  width: 100%;
+  height: 1px;
+  background-color: #e2e8f0;
+}
+
+/* ───────────────────────────────────────────
+   Title row
+─────────────────────────────────────────── */
+.titleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 22px;
+  margin-top: 27px;
+  margin-bottom: 0;
+}
+
+.pageTitle {
+  font-size: 30px;
+  font-weight: 600;
+  color: #3b3b3b;
+  line-height: 36px;
+  margin: 0;
+}
+
+.editProfileBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 36px;
+  padding: 0 16px;
+  background: white;
+  border: 1px solid #cad5e2;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #009966;
+  transition: background-color 0.15s;
+}
+
+.editProfileBtn:hover {
+  background-color: #f0faf6;
+}
+
+/* ───────────────────────────────────────────
+   Main card
+─────────────────────────────────────────── */
+.card {
+  margin: 16px 22px 32px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.cardHeading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0f172b;
+  line-height: 32px;
+  margin: 0;
+}
+
+/* ───────────────────────────────────────────
+   Instructions box
+─────────────────────────────────────────── */
+.instructionsBox {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Warning row */
+.warningRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.warningText {
+  font-size: 14px;
+  font-weight: 700;
+  color: #3b3b3b;
+  line-height: 20px;
+  margin: 0;
+}
+
+.logoutBtn {
+  height: 26px;
+  padding: 0 12px;
+  background: white;
+  border: 1px solid #cad5e2;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #45556c;
+  white-space: nowrap;
+  transition: background-color 0.15s;
+}
+
+.logoutBtn:hover {
+  background-color: #f1f5f9;
+}
+
+/* Section headings */
+.sectionHeading {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0f172b;
+  line-height: 20px;
+  margin: 10px 0 2px;
+}
+
+/* Bullet lists */
+.bulletList {
+  margin: 0 0 4px 8px;
+  padding-left: 19px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bulletList li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #0f172b;
+  line-height: 20px;
+}
+
+.nestedList {
+  margin: 4px 0 0;
+  padding-left: 19px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  list-style-type: circle;
+}
+
+.nestedList li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #0f172b;
+  line-height: 20px;
+}
+
+/* DO NOT CHANGE heading */
+.doNotChangeText {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f172b;
+  line-height: 20px;
+  margin: 10px 0 2px;
+}
+
+/* ───────────────────────────────────────────
+   Proceed button row
+─────────────────────────────────────────── */
+.proceedRow {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.proceedBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 48px;
+  padding: 0 24px;
+  background-color: #009966;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  transition: background-color 0.15s;
+}
+
+.proceedBtn:hover {
+  background-color: #007a52;
+}

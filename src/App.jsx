@@ -1,5 +1,5 @@
-import GeneralInstruction from './components/GeneralInstruction'
+import HomePage from './components/HomePage'
 
 export default function App() {
-  return <GeneralInstruction />
+  return <HomePage />
 }
